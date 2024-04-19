@@ -1,0 +1,108 @@
+{
+  "Name": "ACT_RU_TASK_View",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "PROC_INST_ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "PROC_DEF_ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "NAME_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "DESCRIPTION_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserBindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "ASSIGNEE_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "CREATE_TIME_",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int32",
+      "MaxLength": -1,
+      "Name": "SUSPENSION_STATE_",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "FORM_KEY_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "TASK_TYPE_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "TASK_BLOCK_TYPE_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "BuiltInViewInfo": {
+    "ViewName": "ACT_RU_TASK_View",
+    "SourceViewName": "ACT_RU_TASK_View",
+    "CreateViewSql": "SELECT ID_,PROC_INST_ID_,PROC_DEF_ID_,NAME_,DESCRIPTION_,ASSIGNEE_,CREATE_TIME_,SUSPENSION_STATE_,FORM_KEY_,TASK_TYPE_,TASK_BLOCK_TYPE_ FROM [ACT_RU_TASK];",
+    "ViewType": 3
+  },
+  "PrimaryKey": [
+    "ID_"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "ACT_HI_PROCINST_View",
+      "PrimaryColumn": "ID_",
+      "ForeignTable": "ACT_RU_TASK_View",
+      "ForeignColumn": "PROC_INST_ID_",
+      "IsDetailTableRelation": true
+    },
+    {
+      "PrimaryTable": "ACT_RE_PROCDEF_View",
+      "PrimaryColumn": "ID_",
+      "ForeignTable": "ACT_RU_TASK_View",
+      "ForeignColumn": "PROC_DEF_ID_",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}

@@ -1,0 +1,98 @@
+{
+  "Name": "ACT_HI_PROCINST_View",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "PROC_DEF_ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "NAME_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserBindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "START_USER_ID_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "START_TIME_",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "END_TIME_",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "DURATION_",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "DELETE_REASON_",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "AggregateFunction": 5,
+      "DataColumnName": "NAME_",
+      "DetailTableName": "ACT_RU_TASK_View",
+      "DetailTableSchema": "",
+      "Name": "当前节点",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "AggregateFunction": 5,
+      "DataColumnName": "ASSIGNEE_",
+      "DetailTableName": "ACT_RU_TASK_View",
+      "DetailTableSchema": "",
+      "Name": "当前负责人",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "BuiltInViewInfo": {
+    "ViewName": "ACT_HI_PROCINST_View",
+    "SourceViewName": "ACT_HI_PROCINST_View",
+    "CreateViewSql": "SELECT ID_,PROC_DEF_ID_,NAME_,START_USER_ID_,START_TIME_,END_TIME_,DURATION_,DELETE_REASON_ FROM [ACT_HI_PROCINST];",
+    "ViewType": 3
+  },
+  "PrimaryKey": [
+    "ID_"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "ACT_RE_PROCDEF_View",
+      "PrimaryColumn": "ID_",
+      "ForeignTable": "ACT_HI_PROCINST_View",
+      "ForeignColumn": "PROC_DEF_ID_",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}
