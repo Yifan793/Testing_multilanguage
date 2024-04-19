@@ -373,7 +373,17 @@
   },
   {
     "ModuleName": "PCPage/帮助文档",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-19T18:22:11.5259072+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\菜单级别\\帮助文档.json",
+      "Pages\\菜单级别\\帮助文档.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/待审批",
@@ -451,7 +461,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "1146602243@qq.com"
     },
-    "LockDateTime": "2024-04-19T16:39:15.9067668+08:00",
+    "LockDateTime": "2024-04-19T18:22:11.5175035+08:00",
     "ModuleType": 8,
     "ToRemoveFiles": [
       "ApplicationSettings.json",
