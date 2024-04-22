@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "Name": "发布设置1",
+    "ApplicationUrl": "http://xa-dd3-forguncy2/testing_multilanguage",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-forguncy2",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "testing_multilanguage",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "发布设置2",
+    "ApplicationUrl": "http://xa-dd3-shaysong/test_multilanguage",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-shaysong",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "test_multilanguage",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "发布设置3",
+    "ApplicationUrl": "http://xa-dd3-edricli/test_multilanguage",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-edricli",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "test_multilanguage",
+      "AppStartPage": "",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  }
+]
