@@ -558,7 +558,16 @@
   },
   {
     "ModuleName": "PublishConfiguration",
-    "ModuleType": 39
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:03:09.1653273+08:00",
+    "ModuleType": 39,
+    "ToRemoveFiles": [
+      "PublishSettingsConfig.json"
+    ]
   },
   {
     "ModuleName": "Plugin",
