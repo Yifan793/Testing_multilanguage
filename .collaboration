@@ -13,42 +13,122 @@
   },
   {
     "ModuleName": "Table/出差借款额度表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9214383+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\出差主子表关系\\子表\\出差借款额度表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差结算汇率表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9214733+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\出差主子表关系\\子表\\出差结算汇率表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差行程表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9214801+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\出差主子表关系\\子表\\出差行程表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差费用借支表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9214841+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\出差主子表关系\\子表\\出差费用借支表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差预定表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9214882+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\出差主子表关系\\子表\\出差预定表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差预算表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9214917+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\出差主子表关系\\子表\\出差预算表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/票据报销清单表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9214952+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\出差主子表关系\\子表\\票据报销清单表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差信息表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215001+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\出差主子表关系\\出差信息表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -57,37 +137,107 @@
   },
   {
     "ModuleName": "Table/交通工具",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215045+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\字典表\\交通工具.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/人民币大写对应表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.921508+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\字典表\\人民币大写对应表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差地点",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215117+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\字典表\\出差地点.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差类型",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215157+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\字典表\\出差类型.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/出差费用预算项目表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215191+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\字典表\\出差费用预算项目表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/申请表状态",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215232+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\字典表\\申请表状态.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/费用预算子项目表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215269+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\字典表\\费用预算子项目表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -96,12 +246,32 @@
   },
   {
     "ModuleName": "TableView/出差预定清单视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215316+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\视图\\出差预定清单视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/预定及票据清单明细视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215356+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\业务表\\视图\\预定及票据清单明细视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -110,37 +280,107 @@
   },
   {
     "ModuleName": "TableProcessView/ACT_HI_COMMENT_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.92154+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\流程表文件夹\\ACT_HI_COMMENT_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_HI_PROCINST_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215443+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\流程表文件夹\\ACT_HI_PROCINST_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_HI_TASKINST_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215494+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\流程表文件夹\\ACT_HI_TASKINST_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_RE_PROCDEF_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215534+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\流程表文件夹\\ACT_RE_PROCDEF_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableProcessView/ACT_RU_TASK_View",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215574+08:00",
     "ModuleType": 30,
+    "ToRemoveFiles": [
+      "Tables\\流程表文件夹\\ACT_RU_TASK_View.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/用户信息视图",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215618+08:00",
     "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\用户信息视图.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/FGC_状态信息表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9215656+08:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\FGC_状态信息表.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -441,7 +681,18 @@
   },
   {
     "ModuleName": "ProcessItem/出差流程",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-04-22T11:29:07.9236612+08:00",
     "ModuleType": 28,
+    "ToRemoveFiles": [
+      "Process\\出差流程.json",
+      "Process\\出差流程.bpmn",
+      "ProcessForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 1
   },
   {
